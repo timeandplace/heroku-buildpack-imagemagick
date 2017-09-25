@@ -15,7 +15,7 @@ CACHE_FILE="$CACHE_DIR/imagemagick.tar.gz"
 if [ ! -f $CACHE_FILE ]; then
   # install imagemagick
   IMAGE_MAGICK_DIR="ImageMagick-6.9.9-10"
-  IMAGE_MAGICK_URL="https://svwh.dl.sourceforge.net/project/imagemagick/im6-src/ImageMagick-6.9.9-10.tar.gz"
+  IMAGE_MAGICK_URL="https://svwh.dl.sourceforge.net/project/imagemagick/im6-src/ImageMagick-6.9.9-15.tar.gz"
 
   echo "-----> Downloading ImageMagick from $IMAGE_MAGICK_URL"
   curl -L --silent $IMAGE_MAGICK_URL | tar xz
